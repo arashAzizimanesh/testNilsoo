@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView android:layout_width="wrap_content"
+                                        android:layout_margin="@dimen/margin_img"
+                                        android:padding="10dp"
+                                        android:layout_height="wrap_content">
+        <RelativeLayout
+
+                android:orientation="vertical"
+                android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+            <RelativeLayout
+                    android:id="@+id/layout_image"
+                    android:background="@drawable/backgrand_circle_image"
+                    android:layout_margin="@dimen/margin_img"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="@dimen/img_list_hedear_size"
+
+                    android:layout_height="@dimen/img_list_hedear_size">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+android:id="@+id/img_category"
+                        android:src="@mipmap/support"
+                        android:layout_margin="@dimen/margin_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+            </RelativeLayout>
+
+            <TextView
+                    android:layout_below="@+id/layout_image"
+                    android:id="@+id/txt_title"
+                android:layout_centerHorizontal="true"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
+
+</layout>

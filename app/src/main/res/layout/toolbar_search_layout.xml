@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent" android:layout_height="80dp">
+
+
+        <ImageView android:layout_width="24dp" android:layout_height="24dp"
+                   android:layout_centerVertical="true"
+                   android:id="@+id/img_menu"
+                   android:layout_alignParentRight="true"
+                   android:layout_margin="8dp"
+                   android:layout_marginLeft="8dp"
+                   android:src="@drawable/ic_menu_button_of_three_lines"/>
+
+        <ImageView android:layout_width="24dp" android:layout_height="24dp"
+                   android:layout_centerVertical="true"
+                   android:id="@+id/img_basket"
+                   android:layout_alignParentLeft="true"
+                   android:layout_margin="8dp"
+
+                   android:src="@drawable/ic_shopping_basket"/>
+
+
+        <EditText
+
+                android:layout_margin="10dp"
+
+                android:layout_toRightOf="@+id/img_basket"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="10dp"
+                android:drawableRight="@drawable/ic_search"
+                android:background="@drawable/backgrand_search"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/img_menu"
+                android:layout_centerVertical="true"/>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

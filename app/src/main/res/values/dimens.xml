@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_img">10dp</dimen>
+    <dimen name="img_hedear_size">40dp</dimen>
+    <dimen name="img_list_hedear_size">100dp</dimen>
+    <dimen name="title_size">20dp</dimen>
+</resources>

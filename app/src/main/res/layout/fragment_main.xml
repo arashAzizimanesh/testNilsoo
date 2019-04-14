@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".ui.fragment.MainFragment">
+
+    <android.support.v4.widget.NestedScrollView
+            android:fillViewport="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <include android:id="@+id/slider_include" layout="@layout/slider_main_lalyout"/>
+            <include android:id="@+id/hedear_include" layout="@layout/hedear_item_main_layout"/>
+
+            <include
+                    android:id="@+id/list_main_include"
+                    layout="@layout/list_main_layout"/>
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+</layout>
